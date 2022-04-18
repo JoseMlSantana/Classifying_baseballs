@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import os
 from time import sleep
 from urllib.error import HTTPError
 import pandas as pd
-from tqdm.auto import tqdm
 
 
 def savant_search(season, team, home_road, csv=False, sep=';'):
@@ -74,21 +72,3 @@ def savant_search(season, team, home_road, csv=False, sep=';'):
 Scrapper obatied from the repo https://github.com/alanrkessler/savantscraper
 
 """
-
-
-prueba = savant_search(2022, 'NYY', "Home")
-
-print(list(prueba.columns))
-
-
-
-
-
-#Pitch exit velocity 
-#spin 
-#vertical break 
-#Horizontal break 
-
-#If the pitch was contacted 
-#Exist velocity 
-#Launch angle 
